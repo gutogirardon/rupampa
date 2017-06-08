@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_c"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="unipampa.edu.br.rupampa.C">
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Jantar"
+            android:id="@+id/tituloJantar"
+            android:layout_below="@+id/textViewSucoAlmoco"
+            android:layout_marginTop="20dp"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/linearLayout">
+
+            <FrameLayout
+                android:id="@+id/container_button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewEmBranco"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="71dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewEmbranco2"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="41dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewEmbranco3"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="55dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewEmBrancoo"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="272dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewEmbranco22"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="243dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textViewEmbranco33"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="257dp"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView12"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentRight="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opção Vegetariana:"
+            android:id="@+id/textViewOpcaoVegetarianaAlmoco"
+            android:layout_below="@+id/textViewPratoPrincipalAlmoco"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="22dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acompanhamento:"
+            android:id="@+id/textViewAcompanhamentoAlmoco"
+            android:layout_below="@+id/textViewOpcaoVegetarianaAlmoco"
+            android:layout_alignLeft="@+id/textViewOpcaoVegetarianaAlmoco"
+            android:layout_alignStart="@+id/textViewOpcaoVegetarianaAlmoco" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guarnição:"
+            android:id="@+id/textViewGuarnicaoAlmoco"
+            android:layout_below="@+id/textViewAcompanhamentoAlmoco"
+            android:layout_alignLeft="@+id/textViewAcompanhamentoAlmoco"
+            android:layout_alignStart="@+id/textViewAcompanhamentoAlmoco" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salada:"
+            android:id="@+id/textViewSaladaAlmoco"
+            android:layout_below="@+id/textViewGuarnicaoAlmoco"
+            android:layout_alignLeft="@+id/textViewGuarnicaoAlmoco"
+            android:layout_alignStart="@+id/textViewGuarnicaoAlmoco" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sobremesa:"
+            android:id="@+id/textViewSobremesaAlmoco"
+            android:layout_below="@+id/textViewSaladaAlmoco"
+            android:layout_alignLeft="@+id/textViewAcompanhamentoAlmoco"
+            android:layout_alignStart="@+id/textViewAcompanhamentoAlmoco" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suco:"
+            android:id="@+id/textViewSucoAlmoco"
+            android:layout_below="@+id/textViewSobremesaAlmoco"
+            android:layout_alignLeft="@+id/textViewSaladaAlmoco"
+            android:layout_alignStart="@+id/textViewSaladaAlmoco" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Prato principal:"
+            android:id="@+id/textViewPratoPrincipalJantar"
+            android:layout_marginLeft="24dp"
+            android:layout_marginStart="24dp"
+            android:layout_alignBaseline="@+id/textViewEmBrancoo"
+            android:layout_alignBottom="@+id/textViewEmBrancoo"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Opção Vegetariana:"
+            android:id="@+id/textViewOpcaoVegetarianaJantar"
+            android:layout_below="@+id/textViewPratoPrincipalJantar"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="22dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acompanhamento:"
+            android:id="@+id/textViewAcompanhamentoJantar"
+            android:layout_below="@+id/textViewOpcaoVegetarianaJantar"
+            android:layout_alignLeft="@+id/textViewOpcaoVegetarianaJantar"
+            android:layout_alignStart="@+id/textViewOpcaoVegetarianaJantar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Guarnição:"
+            android:id="@+id/textViewGuarnicaoJantar"
+            android:layout_below="@+id/textViewAcompanhamentoJantar"
+            android:layout_alignLeft="@+id/textViewAcompanhamentoJantar"
+            android:layout_alignStart="@+id/textViewAcompanhamentoJantar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salada:"
+            android:id="@+id/textViewSaladaJantar"
+            android:layout_below="@+id/textViewGuarnicaoJantar"
+            android:layout_alignLeft="@+id/textViewGuarnicaoJantar"
+            android:layout_alignStart="@+id/textViewGuarnicaoJantar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sobremesa:"
+            android:id="@+id/textViewSobremesaJantar"
+            android:layout_below="@+id/textViewSaladaJantar"
+            android:layout_alignLeft="@+id/textViewAcompanhamentoJantar"
+            android:layout_alignStart="@+id/textViewAcompanhamentoJantar" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suco:"
+            android:id="@+id/textViewSucoJantar"
+            android:layout_below="@+id/textViewSobremesaJantar"
+            android:layout_alignLeft="@+id/textViewSaladaJantar"
+            android:layout_alignStart="@+id/textViewSaladaJantar" />
+
+    <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton1"
+            android:src="@drawable/setadireita"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/textView12"
+            android:layout_alignEnd="@+id/textView12"
+        android:background="@color/white" />
+
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:id="@+id/tttData"
+      />
+
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:src="@drawable/setaesquerda"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/bdSucoAlmoco"
+        android:background="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Almoço"
+        android:id="@+id/tituloAlmoco"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageViewLogo"
+        android:layout_width="120dp"
+        android:layout_height="116dp"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+ />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Dia __/__/__"
+        android:id="@+id/textView"
+        android:layout_marginBottom="13dp"
+        android:layout_alignBottom="@+id/imageViewLogo"
+        android:layout_toEndOf="@+id/imageViewLogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bdSucoJantar"
+        android:text="Suco Jantar"
+        android:layout_alignBaseline="@+id/textViewSucoJantar"
+        android:layout_alignBottom="@+id/textViewSucoJantar"
+        android:layout_toEndOf="@+id/textViewSucoJantar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bdSaladaJantar"
+        android:text="Salada Jantar"
+        android:layout_alignBaseline="@+id/textViewSaladaJantar"
+        android:layout_alignBottom="@+id/textViewSaladaJantar"
+        android:layout_toEndOf="@+id/textViewSaladaJantar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bdGuarnicaoJantar"
+        android:text="Guarnição Jantar"
+        android:layout_alignBaseline="@+id/textViewGuarnicaoJantar"
+        android:layout_alignBottom="@+id/textViewGuarnicaoJantar"
+        android:layout_toEndOf="@+id/textViewGuarnicaoJantar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bdAcompanhamentoJantar"
+        android:text="Acompanhamento Jantar"
+        android:layout_alignBaseline="@+id/textViewAcompanhamentoJantar"
+        android:layout_alignBottom="@+id/textViewAcompanhamentoJantar"
+        android:layout_toEndOf="@+id/textViewAcompanhamentoJantar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bdSucoAlmoco"
+        android:text="Suco"
+        android:layout_below="@+id/textViewSobremesaAlmoco"
+        android:layout_toEndOf="@+id/tituloJantar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bdSobremesaAlmoco"
+        android:text="Sobremosa"
+        android:layout_alignBaseline="@+id/textViewSobremesaAlmoco"
+        android:layout_alignBottom="@+id/textViewSobremesaAlmoco"
+        android:layout_toEndOf="@+id/textViewSobremesaAlmoco" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bdSaladaAlmoco"
+        android:text="Salada"
+        android:layout_below="@+id/textViewGuarnicaoAlmoco"
+        android:layout_toStartOf="@+id/imageViewLogo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bdGuarnicaoAlmoco"
+        android:text="Guarnição"
+        android:layout_alignBaseline="@+id/textViewGuarnicaoAlmoco"
+        android:layout_alignBottom="@+id/textViewGuarnicaoAlmoco"
+        android:layout_toEndOf="@+id/textViewGuarnicaoAlmoco" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bdAcompanhamentoAlmoco"
+        android:text="Acompanhamento"
+        android:layout_alignBaseline="@+id/textViewAcompanhamentoAlmoco"
+        android:layout_alignBottom="@+id/textViewAcompanhamentoAlmoco"
+        android:layout_toEndOf="@+id/textViewAcompanhamentoAlmoco" />
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/bdOpcaoVegetarianaAlmoco"
+        android:text="Vegan"
+        android:layout_alignBaseline="@+id/textViewOpcaoVegetarianaAlmoco"
+        android:layout_alignBottom="@+id/textViewOpcaoVegetarianaAlmoco"
+        android:layout_toEndOf="@+id/textViewOpcaoVegetarianaAlmoco" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bdSobremesaJantar"
+        android:text="Sobremesa Jantar"
+
+        android:layout_below="@+id/bdSaladaJantar"
+        android:layout_toEndOf="@+id/textViewSobremesaJantar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bdOpcaoVegetarianaJantar"
+        android:text="Vegan Jantar 1"
+        android:layout_alignBaseline="@+id/textViewOpcaoVegetarianaJantar"
+        android:layout_alignBottom="@+id/textViewOpcaoVegetarianaJantar"
+        android:layout_toEndOf="@+id/textViewAcompanhamentoJantar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bdPratoPrincipalJantar"
+        android:text="Prato Principal Jantar"
+        android:layout_above="@+id/textViewOpcaoVegetarianaJantar"
+        android:layout_toEndOf="@+id/textViewPratoPrincipalJantar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bdPratoPrincipalAlmoco"
+        android:text="Prato Principal"
+        android:layout_above="@+id/textViewOpcaoVegetarianaAlmoco"
+        android:layout_alignEnd="@+id/bdSobremesaJantar" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Prato principal:"
+        android:id="@+id/textViewPratoPrincipalAlmoco"
+        android:layout_marginLeft="24dp"
+        android:layout_alignBaseline="@+id/textViewEmBranco"
+        android:layout_alignBottom="@+id/textViewEmBranco"
+        android:layout_toStartOf="@+id/bdPratoPrincipalAlmoco" />
+
+
+</RelativeLayout>
